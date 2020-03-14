@@ -1,0 +1,10 @@
+
+cargo new hello_cargo --bin
+
+If we list the fles in the hello_cargo directory, we can see that Cargo
+has generated two fles and one directory for us: a Cargo.toml and a
+src directory with a main.rs fle inside. It has also initialized a new git
+repository in the hello_cargo directory for us, along with a .gitignore
+fle; you can change this to use a diﬀerent version control system, or no
+version control system, by using the --vcs ﬂag
+
